@@ -1,0 +1,21 @@
+
+
+.body_color{
+	background-image: url("bg.jpg");
+	background-color: #f3e5de;
+}
+
+.led{
+	font-family: tohama;
+    font-size: 50px;
+    margin: 100px auto;
+}
+
+.led_row{
+	margin: 20px 0;
+}
+
+body{
+	   background-image: url("/images/sps.png");
+   background-color: #cccccc;
+}

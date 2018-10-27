@@ -1,0 +1,40 @@
+php artisan crud:generate Player --fields='lname#string; fname#string; country_id#select#options={"1": "Mongolia", 
+"2": "Hong kong", 
+"3": "Thailand", 
+"4": "Chinese taipei", 
+"5": "Korea", 
+"6": "North korea", 
+"7": "Kyrgyzstan", 
+"8": "Kazakhstan", 
+"9": "Uzbekistan", 
+"10": "Vietnam"}; number#string; birth#date; item_id#integer; photo#string; point_id#integer; category_id#integer' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+php artisan crud:generate Country --fields='name#string; flag#string' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+php artisan crud:generate Item --fields='name#string; photo#string; brand#string' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+
+
+php artisan crud:generate Category --fields='name#string; angilal_id#integer' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+float
+php artisan crud:generate Point --fields='d1#float; d2#float; d3#float; d4#float; e1#float; e2#float; e3#float; e4#float; e5#float; e6#float; l1#float; l2#float; t1#float; total#integer; user_id#integer; item_id#integer ' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+
+php artisan crud:generate Schedule --fields='name#string; time#string; item_id#integer; category_id#integer; angilal_id#integer' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+php artisan crud:generate Angilal --fields='name#string; photo#string' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+
+
+
+php artisan crud:generate Posts --fields=' country_id#select#options={"1": "Mongolia", 
+"2": "Hong kong", 
+"3": "Thailand",
+"4": "Chinese taipei",
+"5": "Korea",
+"6": "North korea",
+"7": "Kyrgyzstan",
+"8": "Kazakhstan",
+"9": "Uzbekistan",
+"0": "Vietnam"}' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
+

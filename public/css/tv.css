@@ -1,0 +1,38 @@
+
+body{
+	   background-image: url("/images/led design.png");
+	   background-repeat: no-repeat, repeat;
+}
+
+.led_shuu{
+color: #000;
+    font-size: 35px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 310px 0 0 100px;
+}
+
+.score{
+	margin-top: 55px;
+    color: #000;
+    margin-left: -170px;
+}
+
+.name{
+	font-size: 50px;
+}
+
+.durvuljin{
+
+         display: inline-block;
+    width: 600px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.zurag{
+	width: 140px;
+	display: inline-block;
+	 position: relative;
+}

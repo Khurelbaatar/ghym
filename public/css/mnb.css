@@ -1,0 +1,50 @@
+
+body{
+	   background-image: url("/images/mnb.png");
+	   background-color: #66ff00;
+}
+
+
+#mnb{
+    color: #fff;
+}
+
+#score_mnb{
+    width:1100px;
+    position: fixed;
+    bottom: 100px;
+}
+
+.name{
+    font-size: 30px;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#table{
+    width:1100px;
+    position: fixed;
+    bottom: 25px;
+}
+
+#table td{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 10px;
+    width: 20%;
+
+}
+
+.title{
+    margin-bottom: 8px;
+}
+
+.title td{
+    padding-left: 0px;
+}
+
+.flag{
+    font-size: 22px;
+
+}

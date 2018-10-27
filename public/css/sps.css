@@ -1,0 +1,17 @@
+
+body{
+	   background-image: url("/images/sps.png");
+   	   background-color: #66ff00;
+}
+
+.led{
+	color: #fff; 
+	font-size: 35px;
+	font-style: italic;
+	text-transform: uppercase;
+	margin: 635px 0 0 120px;
+}
+
+.score{
+	margin-top: 42px;
+}
